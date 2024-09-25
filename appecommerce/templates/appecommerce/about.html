@@ -1,0 +1,67 @@
+{% extends 'appecommerce/base.html' %}
+{% load static %}
+{% block title %}About{% endblock title %}
+
+{% block banner-slider %}
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'appecommerce/images/banner/b1.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+
+    <div class="carousel-item">
+      <img src="{% static 'appecommerce/images/banner/b2.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+
+    <div class="carousel-item">
+      <img src="{% static 'appecommerce/images/banner/b3.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+
+    <div class="carousel-item">
+      <img src="{% static 'appecommerce/images/banner/b4.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+  </div>
+</div>
+{% endblock banner-slider %}
+
+
+{% block main-content %}
+<div class="container mt-3">
+    <br>
+    <h2 class="text-center">About Us</h2>
+    <br>
+    <div class="row container">
+        <p class="fs-4 text-center">
+            Welcome to GalaxySweet, your premier destination for the finest milk
+            products since 2020! Founded with a passion for delivering fresh and wholesome dairy delights,
+            GalaxySweet is dedicated to bringing you the best of locally-sourced milk, butter, cheese,
+            yogurt, and more. We believe in quality, sustainability, and supporting our local farmers,
+            ensuring that every product we offer is rich in flavor and packed with nutrition.
+            From our beginnings, we have focused on providing exceptional customer service, competitive prices,
+            and a seamless online shopping experience. At GalaxySweet, we are proud to bring the
+            goodness of farm-fresh dairy products right to your table, every day!
+
+        </p>
+    </div>
+
+    <br><br>
+    <h2 class="text-center">Mission</h2>
+    <br>
+    <div class="row container">
+        <p class="fs-4 text-center">
+            At GalaxySweet, our mission is to provide our customers with the freshest and
+            highest-quality milk products while supporting sustainable farming and local communities.
+            We strive to bridge the gap between farms and families by delivering wholesome dairy
+            delights directly to your doorstep. Committed to excellence, we ensure that every product
+            meets the highest standards of taste, nutrition, and purity. Our passion goes beyond just
+            selling milk products — we aim to promote healthy lifestyles and foster a love for natural,
+            delicious dairy. Through transparency, customer care, and continuous innovation,
+            we seek to create a delightful shopping experience. At GalaxySweet, we believe in nourishing lives,
+            one glass of milk at a time.
+
+        </p>
+    </div>
+
+</div>
+
+{% endblock %}
